@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running the compiled program...'
-                sh './hello' // Execute the compiled C++ file
+                sh './helo' // Execute the compiled C++ file
             }
         }
 
